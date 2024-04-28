@@ -1,0 +1,88 @@
+.gridTableContainer {
+  width: 96%;
+  margin: 25px auto;
+  display: grid;
+  grid-template-columns: 8% 43% 43%;
+  grid-template-rows: 2vh 35vh 35vh;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.celda {
+  max-height: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px rgba(1, 46, 83, 0.863);
+  padding: 10px 15px;
+  overflow-y: auto;
+}
+.redCelda {
+  background-color: rgba(247, 57, 57, 0.301);
+}
+.yellowCelda {
+  background-color: rgba(227, 241, 105, 0.438);
+}
+.blueCelda {
+  background-color: rgba(105, 241, 223, 0.479);
+}
+.greenCelda {
+  background-color: rgba(105, 241, 135, 0.24);
+}
+.celdaHorizontal {
+  text-align: center;
+  align-content: stretch;
+  height: 100%;
+}
+.headerCell {
+  font-size: 1.4rem;
+  color: rgb(117, 117, 117);
+}
+.celdaVertical {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+.horizontal1-2 {
+  grid-row: 1 / span 2;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+}
+.card {
+  border-radius: 8px;
+  width: 20%;
+  padding: 10px;
+  border: solid 1px rgba(1, 46, 83, 0.685);
+  box-shadow: 0px 0px 5px rgba(1, 46, 83, 0.548);
+  background-color: rgba(255, 255, 255, 0.459);
+  margin: 5px;
+}
+.card a{
+  text-decoration: none;
+}
+.titleTaskClass {
+  font-size: 1.6rem;
+}
+
+.buttoner__Control {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 35px;
+}
+
+.buttonStandar {
+  width: 120px;
+  padding: 5px 10px;
+  border-radius: 10%;
+  border: none;
+  font-size: 1.2rem;
+}
+.blueButtonColor {
+  color: white;
+  background-color: #219ed8;
+}
+
+.buttonStandar:active {
+  background-color: #0a6088;
+  color: white;
+}
